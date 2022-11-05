@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="056e42f4-84b8-432e-bf82-2b0d09b91b4d" name="默认变更列表" comment="222">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-manage-man" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man" afterDir="false" />
-    </list>
+    <list default="true" id="056e42f4-84b8-432e-bf82-2b0d09b91b4d" name="默认变更列表" comment="222" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667662123549</updated>
-      <workItem from="1667662125421" duration="1634000" />
+      <workItem from="1667662125421" duration="1984000" />
     </task>
     <task id="LOCAL-00001" summary="222">
       <created>1667663346500</created>
