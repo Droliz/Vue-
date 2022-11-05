@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="056e42f4-84b8-432e-bf82-2b0d09b91b4d" name="默认变更列表" comment="222">
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/api/mock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/api/mockServeData/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/api/mockServeData/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/api/mockServeData/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/assets/image/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/components/AsideMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/components/HeaderMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/components/TagBox.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/store/modules/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/store/modules/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/utils/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/utils/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/views/HomeView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/views/LoginView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/views/MainView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/views/MallView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/views/PageView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man/src/views/UserView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-manage-man/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-manage-man/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-manage-man/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-manage-man/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-manage-man/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +21,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -70,8 +42,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667662123549</updated>
-      <workItem from="1667662125421" duration="966000" />
+      <workItem from="1667662125421" duration="1634000" />
     </task>
+    <task id="LOCAL-00001" summary="222">
+      <created>1667663346500</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667663346500</updated>
+    </task>
+    <task id="LOCAL-00002" summary="222">
+      <created>1667663369406</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667663369406</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,7 +75,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
