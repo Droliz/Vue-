@@ -67,7 +67,7 @@ export default {
   name: "HomeView",
   mounted() {
     getData().then(({data}) => {
-      console.log(this.$router)
+      // console.log(this.$router)
       const {orderData, userData, videoData, tableData, countData} = data.data
       this.tableData = tableData
       this.countData = countData

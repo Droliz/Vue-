@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="056e42f4-84b8-432e-bf82-2b0d09b91b4d" name="默认变更列表" comment="222" />
+    <list default="true" id="056e42f4-84b8-432e-bf82-2b0d09b91b4d" name="默认变更列表" comment="222">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/api/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/api/mock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/api/mockServeData/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/api/mockServeData/permission.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/api/mockServeData/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/assets/image/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/components/AsideMenu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/components/HeaderMenu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/components/TagBox.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/store/modules/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/store/modules/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/utils/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/utils/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/views/HomeView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/views/LoginView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/views/MainView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/views/MallView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/views/PageView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/src/views/UserView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man/vue.config.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vue-manage-man" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="ProjectId" id="2H8MBakMvROcWNHCelc5Yw2WVfE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -25,11 +66,32 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JSON" />
+    <property name="settings.editor.selected.configurable" value="Console" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/vue-manage-man/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.serve" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,6 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1667662123549</updated>
       <workItem from="1667662125421" duration="1984000" />
+      <workItem from="1667699730050" duration="721000" />
+      <workItem from="1667700485910" duration="294000" />
     </task>
     <task id="LOCAL-00001" summary="222">
       <created>1667663346500</created>
@@ -83,9 +147,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="222" />
     <option name="LAST_COMMIT_MESSAGE" value="222" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="Vue-project-training" type="b2602c69:ProjectViewProjectNode" />
+        <item name="Vue-project-training" type="462c0819:PsiDirectoryNode" />
+      </path>
+      <path>
+        <item name="Vue-project-training" type="b2602c69:ProjectViewProjectNode" />
+        <item name="Vue-project-training" type="462c0819:PsiDirectoryNode" />
+        <item name="vue-manage-man-2" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>
