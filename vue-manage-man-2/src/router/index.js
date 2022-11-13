@@ -12,11 +12,11 @@ const routes = [
         redirect: "/home",
         children: [
             // 动态添加 （权限）
-            // {path: "home", name: "home", component: () => import("@/views/Home")},
-            // {path: "user", name: "user", component: () => import("@/views/User")},
-            // {path: "mall", name: "mall", component: () => import("@/views/Mall")},
-            // {path: "page1", name: "page1", component: () => import("@/views/Page")},
-            // {path: "page2", name: "page2", component: () => import("@/views/Page")},
+            // {path: "home", name: "home", component: () => import("@/views/HomeView")},
+            // {path: "user", name: "user", component: () => import("@/views/UserView")},
+            // {path: "mall", name: "mall", component: () => import("@/views/MallView")},
+            // {path: "page1", name: "page1", component: () => import("@/views/PageView")},
+            // {path: "page2", name: "page2", component: () => import("@/views/PageView")},
         ]
     },
     {
@@ -33,9 +33,9 @@ const router = new VueRouter({
 router.beforeEach((to, from, next) => {
     const token = Cookie.get('token')
     if (!token && to.name !== 'login') {  // 避免登陆界面进入登陆界面
-        next({name: 'login'})
+        next({ name: 'login' })
     } else if (token && to.name === 'login') {   // token已经存在，避免跳转到 login
-        next({name: 'home'})
+        next({ name: 'home' })
     } else {
         next()
     }

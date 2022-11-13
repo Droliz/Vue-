@@ -1,14 +1,15 @@
 <template>
-  <div>
+  <div class="common-layout">
     <el-container>
-      <el-aside width="auto">   <!--  width="200px" -->
-        <aside-menu/>
+      <el-aside width="auto">
+        <!--  width="200px" -->
+        <aside-menu />
       </el-aside>
       <el-container>
         <el-header>
-          <header-menu/>
+          <header-menu />
         </el-header>
-        <tag-box/>
+        <tag-box />
         <el-main>
           <router-view></router-view>
         </el-main>
@@ -35,5 +36,14 @@ export default {
 <style scoped lang="less">
 .el-header {
   padding: 0;
+}
+
+.common-layout {
+  height: 100%;
+
+  .el-aside {
+    min-height: 100vh;
+    background-color: #545c64;
+  }
 }
 </style>

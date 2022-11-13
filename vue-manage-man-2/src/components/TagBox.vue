@@ -24,7 +24,7 @@ export default {
     })
   },
   methods: {
-    ...mapMutations(['closeTag']),
+    ...mapMutations(['tab/closeTag']),
     changeMenu(item) {
       if (item.name === this.$route.name) return
       this.$router.push(item.path)

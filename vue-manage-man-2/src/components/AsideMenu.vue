@@ -1,12 +1,6 @@
 <template>
-  <el-menu default-active="1-4-1"
-           class="el-menu-vertical-demo"
-           @open="handleOpen"
-           @close="handleClose"
-           background-color="#545c64"
-           text-color="#fff"
-           active-text-color="#ffd04b"
-           :collapse="isCollapse">
+  <el-menu default-active="1-4-1" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose"
+    background-color="#545c64" text-color="#fff" active-text-color="#ffd04b" :collapse="isCollapse">
     <h3>{{ isCollapse ? "后台" : "通用后台管理" }}</h3>
     <el-menu-item @click="gotoPage(item)" v-for="item in noChildren" :index="item.name" :key="item.name">
       <i :class="`el-icon-${item.icon}`"></i>
@@ -19,7 +13,7 @@
         <span slot="title">{{ item.label }}</span>
       </template>
 
-      <el-menu-item @click="gotoPage(chi.path)" v-for="chi in item.children" :key="chi.name" :index="chi.name">
+      <el-menu-item @click="gotoPage(chi)" v-for="chi in item.children" :key="chi.name" :index="chi.name">
         <i :class="`el-icon-${chi.icon}`"></i>
         <span slot="title">{{ chi.label }}</span>
       </el-menu-item>

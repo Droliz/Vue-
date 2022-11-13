@@ -22,12 +22,12 @@ export default {
             menu.forEach(item => {
                 if (item.children) {
                     item.children = item.children.map(chi => {
-                        chi.component = () => import(`@/views/${chi.url}`)
+                        chi.component = (resolve) => require([`@/views/${chi.url}`], resolve)
                         return chi
                     })
                     menuArray.push(...item.children)
                 } else {
-                    item.component = () => import(`@/views/${item.url}`)
+                    item.component = (resolve) => require([`@/views/${item.url}`], resolve)
                     menuArray.push(item)
                 }
             })

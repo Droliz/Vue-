@@ -15,13 +15,8 @@
         </div>
       </el-card>
       <el-card class="box-card-table">
-        <el-table
-            :data="tableData"
-            style="width: 100%; ">
-          <el-table-column
-              v-for="(val, key) in colItems"
-              :prop="key"
-              :label="val">
+        <el-table :data="tableData" style="width: 100%; ">
+          <el-table-column v-for="(val, key) in colItems" :prop="key" :label="val">
           </el-table-column>
         </el-table>
       </el-card>
@@ -29,7 +24,7 @@
 
     <el-col :span="16" style="padding-left: 10px;">
       <div class="num">
-        <el-card :body-style="{display: 'flex', padding: 0}" v-for="item in countData" :key="item.name">
+        <el-card :body-style="{ display: 'flex', padding: 0 }" v-for="item in countData" :key="item.name">
           <i class="icon" :class="`el-icon-${item.icon}`" :style="`background-color: ${item.color}`"></i>
           <div class="detail">
             <p class="price">{{ `￥` + item.value }}</p>
@@ -60,15 +55,15 @@
 </template>
 
 <script>
-import {getData} from "@/api"
+import { getData } from "@/api"
 import * as echarts from 'echarts'
 
 export default {
   name: "HomeView",
   mounted() {
-    getData().then(({data}) => {
+    getData().then(({ data }) => {
       // console.log(this.$router)
-      const {orderData, userData, videoData, tableData, countData} = data.data
+      const { orderData, userData, videoData, tableData, countData } = data.data
       this.tableData = tableData
       this.countData = countData
       this.$nextTick(() => {
@@ -123,7 +118,7 @@ export default {
             type: 'category',
             data: userData.map(item => item.date),
             axisLine: {
-              lineStyle: {color: "#17b3a3"}
+              lineStyle: { color: "#17b3a3" }
             },
             axisLabel: {
               interval: 0,
@@ -134,7 +129,7 @@ export default {
             {
               type: "value",
               axisLine: {
-                lineStyle: {color: "#17b3a3"}
+                lineStyle: { color: "#17b3a3" }
               },
             }
           ],
@@ -260,34 +255,34 @@ export default {
     .el-card {
       width: 32%;
       margin-bottom: 20px;
-    }
 
-    .icon {
-      height: 80px;
-      width: 80px;
-      font-size: 30px;
-      text-align: center;
-      line-height: 80px;
-      color: #fff;
-    }
-
-    .detail {
-      margin-left: 15px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-
-      .price {
+      .icon {
+        height: 80px;
+        width: 80px;
         font-size: 30px;
-        margin-bottom: 10px;
-        line-height: 30px;
-        height: 30px;
+        text-align: center;
+        line-height: 80px;
+        color: #fff;
       }
 
-      .desc {
-        font-size: 14px;
-        color: #999;
-        text-align: center;
+      .detail {
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .price {
+          font-size: 30px;
+          margin-bottom: 10px;
+          line-height: 30px;
+          height: 30px;
+        }
+
+        .desc {
+          font-size: 14px;
+          color: #999;
+          text-align: center;
+        }
       }
     }
   }
@@ -303,6 +298,4 @@ export default {
     }
   }
 }
-
-
 </style>

@@ -1,14 +1,10 @@
 <template>
   <el-form ref="form" inline class="login-container" :rules="rules" :model="form" label-width="70px">
     <h3 class="login-title">系统登录</h3>
-    <el-form-item
-        label="用户名"
-        prop="username">
+    <el-form-item label="用户名" prop="username">
       <el-input v-model="form.username" placeholder="请输入用户名" clearable></el-input>
     </el-form-item>
-    <el-form-item
-        label="密码"
-        prop="password">
+    <el-form-item label="密码" prop="password">
       <el-input type="password" v-model="form.password" placeholder="请输入密码" clearable></el-input>
     </el-form-item>
     <el-form-item class="form-button">
@@ -19,7 +15,7 @@
 
 <script>
 import Cookie from "js-cookie";
-import {getMenu} from "@/api";
+import { getMenu } from "@/api";
 
 export default {
   name: "LoginView",
@@ -31,10 +27,10 @@ export default {
       },
       rules: {
         username: [
-          {required: true, trigger: 'blur', message: '请输入用户名',}
+          { required: true, trigger: 'blur', message: '请输入用户名', }
         ],
         password: [
-          {required: true, trigger: 'blur', message: '请输入密码',}
+          { required: true, trigger: 'blur', message: '请输入密码', }
         ]
       }
     }
@@ -44,9 +40,9 @@ export default {
       // form表单校验通过 val => true
       this.$refs.form.validate(val => {
         if (val) {
-          getMenu(JSON.stringify(this.form)).then(({data}) => {
+          getMenu(JSON.stringify(this.form)).then(({ data }) => {
             if (data.code === 200) {
-              const {token, menu} = data.data
+              const { token, menu } = data.data
               Cookie.set('token', token)
 
               this.$store.commit('menu/setMenu', menu)
