@@ -24,18 +24,18 @@ export default {
                     item.children = item.children.map(item => {
                         // chi.component = (resolve) => require([`@/views/${chi.url}.vue`], resolve)
                         const str = `../../view/${item.url}.vue`
-                        item.component = () => import(str)
+                        item.component = () => import(/* @vite-ignore */str)
                         return item
                     })
                     menuArray.push(...item.children)
                 } else {
                     // item.component = (resolve) => require([`@/views/${item.url}.vue`], resolve)
                     const str = `../../view/${item.url}.vue`
-                    item.component = () => import(str)
+                    item.component = () => import(/* @vite-ignore */str)
                     menuArray.push(item)
                 }
             })
-            console.log(menuArray);
+            // console.log(menuArray);
             menuArray.forEach(item => {
                 router.addRoute('Main', item)
             })

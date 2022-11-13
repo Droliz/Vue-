@@ -40,7 +40,7 @@ function submit() {
     formRef.value.validate(async () => {
         const { data } = await getMenu(JSON.stringify(form))
         const { token, menu } = data.data
-        localStorage.setItem('loginTime', new Date().valueOf())  // 登录时间戳，方便限制登录时间校验
+        localStorage.setItem('loginTime', new Date().valueOf())  // 登录时间戳，方便
         localStorage.setItem('token', token)
         store.commit('menu/setMenu', menu);
         store.commit('menu/addMenu', router);

@@ -15,12 +15,9 @@
 </script>
 
 <template>
-  <!-- <suspense> -->
-  <!-- <template #default> -->
-  <router-view />
-  <!-- </template>
 
-  </suspense> -->
+  <router-view />
+
 </template>
 
 <style>
