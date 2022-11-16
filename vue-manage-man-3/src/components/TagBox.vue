@@ -28,7 +28,9 @@ function handleClose(item, index) {
     store.commit('tab/closeTag', item)
     const length = tags.length - 1
     if (item.name !== route.name) return
+
     if (index === length + 1) {
+        console.log(tags[index - 1])
         router.push({
             name: tags[index - 1].name
         })

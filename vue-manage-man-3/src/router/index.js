@@ -6,13 +6,13 @@ const routes = [
         component: () => import('@/view/MainView.vue'),
         name: 'Main',
         redirect: "/home",
-        children: [
-            { path: 'home', name: 'home', component: () => import('@/view/Home/HomeView.vue') },
-            { path: 'user', name: 'user', component: () => import('@/view/User/UserView.vue') },
-            { path: 'mall', name: 'mall', component: () => import('@/view/Mall/MallView.vue') },
-            { path: 'page', name: 'page', component: () => import('@/view/Page/PageView.vue') },
-        ],
-        // children: []
+        // children: [
+        //     { path: 'home', name: 'home', component: () => import('@/view/Home/HomeView.vue') },
+        //     { path: 'user', name: 'user', component: () => import('@/view/User/UserView.vue') },
+        //     { path: 'mall', name: 'mall', component: () => import('@/view/Mall/MallView.vue') },
+        //     { path: 'page', name: 'page', component: () => import('@/view/Page/PageView.vue') },
+        // ],
+        children: []
     },
     {
         path: '/login',

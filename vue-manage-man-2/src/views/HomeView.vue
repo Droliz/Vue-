@@ -16,7 +16,7 @@
       </el-card>
       <el-card class="box-card-table">
         <el-table :data="tableData" style="width: 100%; ">
-          <el-table-column v-for="(val, key) in colItems" :prop="key" :label="val">
+          <el-table-column v-for="(val, key) in colItems" :prop="key" :label="val" :key="key">
           </el-table-column>
         </el-table>
       </el-card>

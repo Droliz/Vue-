@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="056e42f4-84b8-432e-bf82-2b0d09b91b4d" name="默认变更列表" comment="222">
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/auto-imports.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/components.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/public/vite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/src/assets/vue.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/src/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/src/view/Home/HomeView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/src/view/MainView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-manage-man-3/vite.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man-2/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man-2/src/views/HomeView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man-3/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man-3/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue3/vite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue-manage-man-2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -111,6 +96,8 @@
       <workItem from="1667662125421" duration="1984000" />
       <workItem from="1667699730050" duration="721000" />
       <workItem from="1667700485910" duration="5019000" />
+      <workItem from="1668512240730" duration="1306000" />
+      <workItem from="1668579119405" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="222">
       <created>1667663346500</created>

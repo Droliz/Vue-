@@ -25,8 +25,9 @@ export default {
             }
         },
         closeTag(state, item) {
-            // console.log(item);
+            console.log(item);
             const index = state.tabsList.findIndex(val => val.name === item.name)
+            console.log(index)
             state.tabsList.splice(index, 1)
         }
     }
