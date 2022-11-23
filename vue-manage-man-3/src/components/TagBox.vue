@@ -17,7 +17,8 @@ const route = useRoute()
 const router = useRouter()
 const store = useStore()
 
-const tags = ref(store.state.tab.tabsList)
+const tags = ref(store.state.tab.tagsList)
+
 
 function changeMenu(item) {
     if (item.name === route.name) return
@@ -26,21 +27,19 @@ function changeMenu(item) {
 
 function handleClose(item, index) {
     store.commit('tab/closeTag', item)
-    const length = tags.length - 1
+    const length = tags.value.length - 1
     if (item.name !== route.name) return
 
     if (index === length + 1) {
-        console.log(tags[index - 1])
         router.push({
-            name: tags[index - 1].name
+            name: tags.value[index - 1].name
         })
     } else {
         router.push({
-            name: tags[index].name
+            name: tags.value[index].name
         })
     }
 }
-
 </script>
 
 <style scope lang='less'>

@@ -1,6 +1,6 @@
 <template>
     <el-menu :collapse-transition="false" :collapse="isCollapse" active-text-color="#ffd04b" background-color="#545c64"
-        class="el-menu-vertical-demo" default-active="home" text-color="#fff">
+        class="el-menu-vertical-demo" :default-active="route.name" text-color="#fff">
         <h3>{{ isCollapse ? "后台" : "通用后台管理" }}</h3>
         <el-menu-item @click="routerPush(item)" v-for="item in noChildren" :index="item.name" :key="item.name">
             <el-icon>
@@ -22,7 +22,6 @@
                 </el-icon>
                 <span>{{ page.label }}</span>
             </el-menu-item>
-            <!-- <el-m~enu-item index="1-2">item two</el-m~enu-item> -->
         </el-sub-menu>
 
     </el-menu>
@@ -36,7 +35,9 @@ import { computed } from 'vue';
 const store = useStore()
 const router = useRouter()
 const route = useRoute()
+
 let isCollapse = computed(() => store.state.tab.isCollapse)
+// console.log(isCollapse.value)
 
 const routerPush = (item) => {
     if (route.path !== item.path && !(route.path === "/home" && item.path === "/")) {
@@ -44,52 +45,6 @@ const routerPush = (item) => {
     }
     store.commit("tab/selectMenu", item)   // 增加 tab
 }
-
-// const menu = [
-//     {
-//         path: "/home",
-//         name: 'home',
-//         label: "首页",
-//         icon: "HomeFilled",
-//         url: "Home/HomeView"
-//     },
-//     {
-//         path: "/mall",
-//         name: 'mall',
-//         label: "商品管理",
-//         icon: "Goods",
-//         url: "Mall/MallView"
-//     },
-//     {
-//         path: "/user",
-//         name: 'user',
-//         label: "用户管理",
-//         icon: "User",
-//         url: "User/UserView"
-//     },
-//     {
-//         label: "其他",
-//         icon: "More",
-//         name: "other",
-//         children: [
-//             {
-//                 path: "/page1",
-//                 name: 'page1',
-//                 label: "页面1",
-//                 icon: "Files",
-//                 url: "Page/PageView"
-//             },
-//             {
-//                 path: "/page2",
-//                 name: 'page2',
-//                 label: "页面2",
-//                 icon: "Files",
-//                 url: "Page/PageView"
-//             }
-//         ]
-//     }
-// ]
-
 
 const menu = JSON.parse(localStorage.getItem('menu')) || store.state.menu.menu
 

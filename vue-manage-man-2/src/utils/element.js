@@ -10,6 +10,7 @@ import {
     Main,
     Menu,
     MenuItem,
+    Divider,
     MenuItemGroup, Message, MessageBox, Option, Pagination, Row, Select, Submenu, Table, TableColumn, Tag
 } from "element-ui";
 import "element-ui/lib/theme-chalk/index.css"
@@ -42,6 +43,7 @@ Vue.use(DatePicker)
 Vue.use(Select)
 Vue.use(Option)
 Vue.use(Pagination)
+Vue.use(Divider)
 
 Vue.prototype.$confirm = MessageBox.confirm
 Vue.prototype.$message = Message

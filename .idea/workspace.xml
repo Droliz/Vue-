@@ -5,9 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="056e42f4-84b8-432e-bf82-2b0d09b91b4d" name="默认变更列表" comment="222">
+      <change afterPath="$PROJECT_DIR$/medical-staff-management-system/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical-staff-management-system/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical-staff-management-system/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical-staff-management-system/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical-staff-management-system/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical-staff-management-system/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical-staff-management-system/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical-staff-management-system/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical-staff-management-system/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical-staff-management-system/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical-staff-management-system/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical-staff-management-system/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical-staff-management-system/vue.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-manage-man-2/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man-2/src/views/HomeView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-manage-man-3/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man-3/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man-2/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man-2/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man-2/src/api/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man-2/src/api/mock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man-2/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man-2/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man-2/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man-2/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man-2/src/utils/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man-2/src/utils/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man-2/src/views/MallView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man-2/src/views/MallView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-manage-man-2/src/views/UserView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-manage-man-2/src/views/UserView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue-manage-man-2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/medical-staff-management-system" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -98,6 +116,7 @@
       <workItem from="1667700485910" duration="5019000" />
       <workItem from="1668512240730" duration="1306000" />
       <workItem from="1668579119405" duration="12000" />
+      <workItem from="1668872706424" duration="387000" />
     </task>
     <task id="LOCAL-00001" summary="222">
       <created>1667663346500</created>

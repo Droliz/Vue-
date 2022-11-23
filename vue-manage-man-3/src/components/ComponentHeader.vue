@@ -25,20 +25,22 @@
 </template>
 
 <script setup>
-import { useStore } from 'vuex'
-import { useRouter } from 'vue-router'
+import { useStore } from 'vuex';
+import { useRouter } from 'vue-router';
 
 const router = useRouter()
 const store = useStore();
-// const tags = ref(store.state.tabs.tabsList)
+
 function change() {
     store.commit('tab/changeCollapse')
 }
 
 function handleClick(command) {
     if (command === 'logout') {
-        localStorage.removeItem('token')
-        localStorage.removeItem('menu')
+        // localStorage.removeItem('token')
+        // localStorage.removeItem('menu')
+        localStorage.clear()
+        console.log(store.state.tab.tagsList)
         router.push('/login')
     }
 

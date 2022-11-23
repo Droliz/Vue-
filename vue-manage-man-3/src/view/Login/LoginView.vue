@@ -40,8 +40,20 @@ function submit() {
     formRef.value.validate(async () => {
         const { data } = await getMenu(JSON.stringify(form))
         const { token, menu } = data.data
-        localStorage.setItem('loginTime', new Date().valueOf())  // 登录时间戳，方便
+        const tagsList = [
+            {
+                path: '/',
+                name: 'home',
+                label: '首页',
+                icon: 'HomeFilled',
+                url: 'Home/HomeView'
+            }
+        ]
+        localStorage.setItem('loginTime', new Date().valueOf())  // 登录时间戳，每 7 天重新登陆
         localStorage.setItem('token', token)
+        localStorage.setItem('collapse', JSON.stringify(true))
+        localStorage.setItem('tagsList', JSON.stringify(tagsList))
+        store.commit('tab/initTagsList')   // 初始化
         store.commit('menu/setMenu', menu);
         store.commit('menu/addMenu', router);
         router.push({

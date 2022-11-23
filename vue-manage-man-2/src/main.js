@@ -12,6 +12,7 @@ new Vue({
     store,
     created() {
         store.commit('menu/addMenu', router)
+        store.dispatch('mall/getData')
     },
     render: h => h(App),
 }).$mount('#app')

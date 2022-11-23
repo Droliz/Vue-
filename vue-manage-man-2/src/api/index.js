@@ -23,3 +23,7 @@ export const editUser = (data) => {
 export const getMenu = (data) => {
     return instance.post('/permission/getMenu', data)
 }
+
+export const getMall = () => {
+    return instance.get('/mall/getMall')
+}
