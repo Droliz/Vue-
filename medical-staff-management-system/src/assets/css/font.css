@@ -6,3 +6,9 @@
     font-style: normal;
 }  
 
+@font-face {
+    font-family: "YongZhongFangSong-2";
+    src: url('../font/YongZhongFangSong-2.ttf');
+    font-weight: normal;
+    font-style: normal;
+}  
